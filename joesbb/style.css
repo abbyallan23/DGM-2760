@@ -1,0 +1,38 @@
+header {
+    max-width: 960;
+    padding-top: 40px;
+    margin: 0 auto;
+    background-image: url("images/Ticking\ Stripe\ Duvet\ -\ Navy\ _\ Ballard\ Designs\ copy.jpg");
+    height: 300px;
+}
+
+h1 {
+    color: rgb(13, 58, 41);
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    line-height: 10%;  
+}
+
+header h2{
+    color: rgb(13, 58, 41);
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+    color: rgb(13, 58, 41);
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 10px;
+}
+
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+footer {
+    text-align: center;
+    background-color: #e1d49f;
+    color: rgb(13, 58, 41);
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
