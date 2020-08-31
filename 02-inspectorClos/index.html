@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspector Clouseau</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1 id="company"></h1>
+        <h2 id="slogan"></h2>
+    </header>
+    <main>
+        <h1 id="pageName"></h1>
+        <h2>What I learned</h2>
+        <ul class="objectives">
+            <li>Display window properties</li>
+            <li>Display document properties</li>
+        </ul>
+
+        <h2>
+            Today is
+
+            <script>
+                let thedate = new Date()
+                document.write(thedate.toLocaleDateString())
+            </script>
+        </h2>
+
+        <p id="greeting"></p>
+
+    </main>
+    <footer>Assignment for DGM2760 by Abby Allan</footer>
+    <script type="text/JavaScript" src="main.js"></script>
+</body>
+</html>
