@@ -3,11 +3,11 @@ header {
     padding-top: 40px;
     margin: 0 auto;
     background-image: url("images/headerImage2");
-    height: 300px;
+    height: 200px;
 }
 
 h1 {
-    color: rgb(13, 58, 41);
+    color: white;
     font-size: 90px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -15,7 +15,7 @@ h1 {
 }
 
 header h2{
-    color: rgb(13, 58, 41);
+    color: white;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
 }
