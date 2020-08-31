@@ -1,11 +1,9 @@
 document.getElementById('company').innerHTML = "Inspector Clouseau"
 
-document.querySelector('header > h2').innerText = ""
+document.querySelector('header > h2').innerText = "Cheif Inspector Clouseau Speaking on the Pheaun"
 
-let userName = prompt("What is your name?")
 
-//let message = "Hello " + userName + ", welcome to the best lodging in Utah!"
+let windowSizes = `Window Size is ${window.innerWidth} pixels wide by ${window.innerHeight} pixels tall.`
+let offset = `Window offset is ${window.screenX} from the left edge and ${window.screenY} pixels from the top of the display`
 
-let message = `Hello ${userName}, `
-
-document.querySelector('#greeting').innerText = message
+let myWindow = document.querySelector('#myWindow').innerText = windowSizes + '\n' + offset
