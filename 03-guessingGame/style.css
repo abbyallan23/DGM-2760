@@ -1,0 +1,47 @@
+header {
+    max-width: 960;
+    padding-top: 40px;
+    margin: 0 auto;
+    background-image: url("images/imageHeader.jpg");
+    height: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    line-height: 10%;  
+}
+
+header h2{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+    color: darkblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 10px;
+}
+
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#greeting {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(13, 58, 41);
+}
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
