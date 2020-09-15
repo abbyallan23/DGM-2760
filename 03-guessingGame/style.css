@@ -34,10 +34,14 @@ p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#greeting {
+#attempts {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: rgb(13, 58, 41);
 }
+
+#feedback {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 footer {
     text-align: center;
     background-color: darkblue;
