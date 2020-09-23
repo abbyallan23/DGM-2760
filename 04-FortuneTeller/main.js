@@ -88,7 +88,7 @@ function getFortune(fate) {
             message = "direct an animated movie about your life story"
             break
         case 8:
-            message = "you discover your secret talent is opera singing"
+            message = "discover your secret talent is opera singing"
             break
         case 9:
             message = "uncover something from your past that will change your entire perception of life"
