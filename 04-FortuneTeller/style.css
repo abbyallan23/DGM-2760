@@ -32,14 +32,8 @@ li {
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-#attempts {
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-#feedback {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    color: darkslateblue;
 }
 
 footer {
