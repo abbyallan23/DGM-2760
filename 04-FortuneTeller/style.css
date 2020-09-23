@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px) {
+    h1{
+       font-size: 60px;
+    }
+    header h2{
+        font-size: 30px;
+    }}
+
 header {
     max-width: 960;
     padding-top: 40px;
