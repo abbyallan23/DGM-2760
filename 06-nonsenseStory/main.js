@@ -24,7 +24,7 @@ function tellStory() {
       .split(/\s+/);
   
     //Story string and assignment to p area
-    const myStory = `Once upon a time there was a ${adjArray[0]} ${nounArray[0]} who was packing up everything to go to ${nounArray[1]}. ${nounArray[0]} was feeling ${adjArray[1]}, but knew that this new life would be ${adjArray[2]}. With a ${verbArray[2]} of faith, ${nounArray[0]} ${verbArray[2]} the dream life with ${nounArray[3]}. Together they travled to ${nounArray[4]} and ate ${nounArray[5]}. Everyday was full of exciting ${nounArray[6]}. It was the ${nounArray[0]} they always wanted.`
+    const myStory = `Once upon a time there was a ${adjArray[0]} ${nounArray[0]} who was packing up everything to go to ${nounArray[1]}. ${nounArray[0]} was feeling ${adjArray[1]}, but knew that this new life would be ${adjArray[2]}. With a ${verbArray[2]} of faith, ${nounArray[0]} created the dream life with ${nounArray[3]}. Together they travled to ${nounArray[4]} and ate ${nounArray[5]}. Everyday was full of exciting ${nounArray[6]}. It was the ${nounArray[0]} they always wanted.`
     let storyBox = document.querySelector("#theStory");
     storyBox.textContent = myStory;
 
