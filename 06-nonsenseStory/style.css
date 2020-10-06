@@ -1,0 +1,105 @@
+header {
+    max-width: 960;
+    padding-top: 40px;
+    margin: 0 auto;
+    background-image: url("headerImage.jpg");
+    height: 250px;
+}
+
+aside {
+    width: 30%;
+    padding-left: 1rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    float: right;
+    background-color: beige;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+}
+
+h1 {
+    color: darkgreen;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    line-height: 10%;  
+}
+
+header h2{
+    color: darkgreen;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+    color: darkgreen;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 10px;
+}
+
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#inputs{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 .58%;
+    padding-left: 10px;
+    max-width: 96%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.boxes{
+min-width: calc(100% / 3);
+padding-left: 10px;
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+
+label{
+    display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: darkgreen;
+}
+
+textarea{
+    max-width: 100%;
+    font-size: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#nouns{
+    background-color: white;
+}
+
+#storyButton{
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: rgba(210, 180, 140, 0.466);
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: darkgreen;
+    
+}
+
+#theStory{
+    transition: ease-in 1s;
+    font-size: 30px;
+    font-family:'Dancing Script', cursive;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
