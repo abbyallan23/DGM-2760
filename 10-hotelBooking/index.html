@@ -3,52 +3,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Nonsense Story</title>
+    <title>Hotel Booking</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     
 </head>
     <header>
-        <h1>Nonsense Story</h1>
-        <h2>String Manipulation</h2>
+        <h1>Hotel California</h1>
+        <h2>Such a Lovely Place</h2>
     </header>
     <main>
         <h2>What I Learned</h2>
         <ul>
-            <li>Extract text from HTML elements</li>
-            <li>Convert a string in to an array</li>
-            <li>Access elements of an array</li>
-            <li>Escape string characters</li>
-            <li>String Concantenation</li>
-            <li>Change a string to lowercase</li>
-            <li>Wild character substitution</li>
+            <li>Create an external JSON file</li>
+            <li>Load the JSON file using the Fetch API</li>
+            <li>How to use a try...catch block</li>
+            <li>How to use an async...await to make asynchronous function calls</li>
+            <li>How to retrieve and store resolved Promise data</li>
+            <li>Display data from the JSON file on the web page using three different buttons</li>
         </ul>
 
-
-            <div id="inputs">
-
-                <div class="boxes">
-                    <label for="nouns">7 nouns:</label>
-                    <textarea id="nouns" name="nouns" rows="8" cols="33"></textarea>
-                </div>
-
-                <div class="boxes">
-                    <label for="adjectives">3 adjectives:</label>
-                    <textarea id="adjectives" name="adjectives" rows="8" cols="33"></textarea>
-                </div>
-
-                <div class="boxes">
-                    <label for="verbs">3 verbs:</label>
-                    <textarea id="verbs" name="verbs" rows="8" cols="33"></textarea>
-                </div>
-
-            </div>
-
-<button id="storyButton" onclick="tellStory()">Tell the Story</button>
-
-<div>
-    <p id="theStory"></p>
-</div>
+        <h2>Select a Hotel</h2>
+        <ul class="hotels">
+          <li><a href= javascript:void(),# id="marriott">Marriott Hotel Rooms</a></li>
+          <li><a href= javascript:void(),# id="sheraton">Sheraton Hotel Rooms</a></li>
+          <li><a href= javascript:void(),# id="hilton">Hilton Hotel Rooms</a></li>
+        </ul>
+  
+        <br>
+        <h2 id="hotelName">Please Choose a Hotel</h2>
+        <p class="style">Address: <span id="address"></span></p>
+          <p class="style">Number of Rooms: <span id="rooms"></span></p>
+         <p class="style">Gym Available: <span id="gym"></span></p>   
+          <p class="style">Room Types: <span id="type"></span></p>
+          
+  
+        <img id="picture">
+  
 
 
         </main>
